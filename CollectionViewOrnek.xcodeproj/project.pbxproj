@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73E568B4B9B308F3A69C8C5D /* Pods_CollectionViewOrnek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDB41FC8FE1FAE5FDC91415 /* Pods_CollectionViewOrnek.framework */; };
+		E07EA61C298FBFE1004CBFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07EA61B298FBFE1004CBFBE /* AppDelegate.swift */; };
+		E07EA61E298FBFE1004CBFBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07EA61D298FBFE1004CBFBE /* SceneDelegate.swift */; };
+		E07EA620298FBFE1004CBFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07EA61F298FBFE1004CBFBE /* ViewController.swift */; };
+		E07EA623298FBFE1004CBFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07EA621298FBFE1004CBFBE /* Main.storyboard */; };
+		E07EA626298FBFE1004CBFBE /* CollectionViewOrnek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E07EA624298FBFE1004CBFBE /* CollectionViewOrnek.xcdatamodeld */; };
+		E07EA628298FBFE3004CBFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07EA627298FBFE3004CBFBE /* Assets.xcassets */; };
+		E07EA62B298FBFE3004CBFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07EA629298FBFE3004CBFBE /* LaunchScreen.storyboard */; };
+		E07EA633298FC2E9004CBFBE /* Meyve.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07EA632298FC2E9004CBFBE /* Meyve.swift */; };
+		E07EA635298FC77D004CBFBE /* MeyvelerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07EA634298FC77D004CBFBE /* MeyvelerCollectionViewCell.swift */; };
+		E07EA63729978FA2004CBFBE /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07EA63629978FA2004CBFBE /* DetayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D797AE199E4FFD218A2D70B /* Pods-CollectionViewOrnek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewOrnek.release.xcconfig"; path = "Target Support Files/Pods-CollectionViewOrnek/Pods-CollectionViewOrnek.release.xcconfig"; sourceTree = "<group>"; };
+		5EDB41FC8FE1FAE5FDC91415 /* Pods_CollectionViewOrnek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionViewOrnek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F66F45F28C377BBC7F526E /* Pods-CollectionViewOrnek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewOrnek.debug.xcconfig"; path = "Target Support Files/Pods-CollectionViewOrnek/Pods-CollectionViewOrnek.debug.xcconfig"; sourceTree = "<group>"; };
+		E07EA618298FBFE1004CBFBE /* CollectionViewOrnek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewOrnek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07EA61B298FBFE1004CBFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E07EA61D298FBFE1004CBFBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E07EA61F298FBFE1004CBFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E07EA622298FBFE1004CBFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E07EA625298FBFE1004CBFBE /* CollectionViewOrnek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectionViewOrnek.xcdatamodel; sourceTree = "<group>"; };
+		E07EA627298FBFE3004CBFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E07EA62A298FBFE3004CBFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E07EA62C298FBFE3004CBFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07EA632298FC2E9004CBFBE /* Meyve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meyve.swift; sourceTree = "<group>"; };
+		E07EA634298FC77D004CBFBE /* MeyvelerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeyvelerCollectionViewCell.swift; sourceTree = "<group>"; };
+		E07EA63629978FA2004CBFBE /* DetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07EA615298FBFE1004CBFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E568B4B9B308F3A69C8C5D /* Pods_CollectionViewOrnek.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30649BAE72F6DCF2A1FBC674 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F66F45F28C377BBC7F526E /* Pods-CollectionViewOrnek.debug.xcconfig */,
+				3D797AE199E4FFD218A2D70B /* Pods-CollectionViewOrnek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E07EA60F298FBFE1004CBFBE = {
+			isa = PBXGroup;
+			children = (
+				E07EA61A298FBFE1004CBFBE /* CollectionViewOrnek */,
+				E07EA619298FBFE1004CBFBE /* Products */,
+				30649BAE72F6DCF2A1FBC674 /* Pods */,
+				EEA63054D1E5D65FFB9C9718 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E07EA619298FBFE1004CBFBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E07EA618298FBFE1004CBFBE /* CollectionViewOrnek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E07EA61A298FBFE1004CBFBE /* CollectionViewOrnek */ = {
+			isa = PBXGroup;
+			children = (
+				E07EA61B298FBFE1004CBFBE /* AppDelegate.swift */,
+				E07EA61D298FBFE1004CBFBE /* SceneDelegate.swift */,
+				E07EA61F298FBFE1004CBFBE /* ViewController.swift */,
+				E07EA632298FC2E9004CBFBE /* Meyve.swift */,
+				E07EA634298FC77D004CBFBE /* MeyvelerCollectionViewCell.swift */,
+				E07EA63629978FA2004CBFBE /* DetayViewController.swift */,
+				E07EA621298FBFE1004CBFBE /* Main.storyboard */,
+				E07EA627298FBFE3004CBFBE /* Assets.xcassets */,
+				E07EA629298FBFE3004CBFBE /* LaunchScreen.storyboard */,
+				E07EA62C298FBFE3004CBFBE /* Info.plist */,
+				E07EA624298FBFE1004CBFBE /* CollectionViewOrnek.xcdatamodeld */,
+			);
+			path = CollectionViewOrnek;
+			sourceTree = "<group>";
+		};
+		EEA63054D1E5D65FFB9C9718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB41FC8FE1FAE5FDC91415 /* Pods_CollectionViewOrnek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E07EA617298FBFE1004CBFBE /* CollectionViewOrnek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07EA62F298FBFE3004CBFBE /* Build configuration list for PBXNativeTarget "CollectionViewOrnek" */;
+			buildPhases = (
+				4D41BB80619E311A20EBC511 /* [CP] Check Pods Manifest.lock */,
+				E07EA614298FBFE1004CBFBE /* Sources */,
+				E07EA615298FBFE1004CBFBE /* Frameworks */,
+				E07EA616298FBFE1004CBFBE /* Resources */,
+				F92CA21B04B5A96749289C6A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewOrnek;
+			productName = CollectionViewOrnek;
+			productReference = E07EA618298FBFE1004CBFBE /* CollectionViewOrnek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E07EA610298FBFE1004CBFBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E07EA617298FBFE1004CBFBE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E07EA613298FBFE1004CBFBE /* Build configuration list for PBXProject "CollectionViewOrnek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E07EA60F298FBFE1004CBFBE;
+			productRefGroup = E07EA619298FBFE1004CBFBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E07EA617298FBFE1004CBFBE /* CollectionViewOrnek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E07EA616298FBFE1004CBFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07EA62B298FBFE3004CBFBE /* LaunchScreen.storyboard in Resources */,
+				E07EA628298FBFE3004CBFBE /* Assets.xcassets in Resources */,
+				E07EA623298FBFE1004CBFBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D41BB80619E311A20EBC511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollectionViewOrnek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92CA21B04B5A96749289C6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollectionViewOrnek/Pods-CollectionViewOrnek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollectionViewOrnek/Pods-CollectionViewOrnek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollectionViewOrnek/Pods-CollectionViewOrnek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E07EA614298FBFE1004CBFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07EA626298FBFE1004CBFBE /* CollectionViewOrnek.xcdatamodeld in Sources */,
+				E07EA63729978FA2004CBFBE /* DetayViewController.swift in Sources */,
+				E07EA620298FBFE1004CBFBE /* ViewController.swift in Sources */,
+				E07EA635298FC77D004CBFBE /* MeyvelerCollectionViewCell.swift in Sources */,
+				E07EA61C298FBFE1004CBFBE /* AppDelegate.swift in Sources */,
+				E07EA61E298FBFE1004CBFBE /* SceneDelegate.swift in Sources */,
+				E07EA633298FC2E9004CBFBE /* Meyve.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E07EA621298FBFE1004CBFBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07EA622298FBFE1004CBFBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E07EA629298FBFE3004CBFBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07EA62A298FBFE3004CBFBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E07EA62D298FBFE3004CBFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E07EA62E298FBFE3004CBFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E07EA630298FBFE3004CBFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F66F45F28C377BBC7F526E /* Pods-CollectionViewOrnek.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollectionViewOrnek/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilgeadam.CollectionViewOrnek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E07EA631298FBFE3004CBFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D797AE199E4FFD218A2D70B /* Pods-CollectionViewOrnek.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollectionViewOrnek/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilgeadam.CollectionViewOrnek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07EA613298FBFE1004CBFBE /* Build configuration list for PBXProject "CollectionViewOrnek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07EA62D298FBFE3004CBFBE /* Debug */,
+				E07EA62E298FBFE3004CBFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07EA62F298FBFE3004CBFBE /* Build configuration list for PBXNativeTarget "CollectionViewOrnek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07EA630298FBFE3004CBFBE /* Debug */,
+				E07EA631298FBFE3004CBFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E07EA624298FBFE1004CBFBE /* CollectionViewOrnek.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E07EA625298FBFE1004CBFBE /* CollectionViewOrnek.xcdatamodel */,
+			);
+			currentVersion = E07EA625298FBFE1004CBFBE /* CollectionViewOrnek.xcdatamodel */;
+			path = CollectionViewOrnek.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E07EA610298FBFE1004CBFBE /* Project object */;
+}
